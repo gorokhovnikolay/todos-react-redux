@@ -1,0 +1,26 @@
+.search_input {
+	height: 26px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid red;
+	width: 0%;
+	animation: widthnone2;
+	animation-duration: 50ms;
+	animation-timing-function: ease-out;
+}
+.search_input2 {
+	height: 26px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid red;
+	width: 100%;
+}
+
+@keyframes widthnone2 {
+	0% {
+		width: 100%;
+	}
+	100% {
+		width: 0%;
+	}
+}
